@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and Logs
+data.txt
+alice.txt
+birds.txt
+*.log
+
+# Models and Encrypted Files
+*.pth
+encrypted.txt
+vigenere_encrypted.txt
+vigenere_decryptor.pth

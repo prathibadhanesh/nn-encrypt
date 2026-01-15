@@ -4,7 +4,7 @@ Exploring the intersection of Deep Learning and Cryptography. This repository de
 
 ## Project Overview
 
-This project serves as a proof of concept for **Neural Cryptanalysis**. We use GRU-based recurrent neural networks to "learn" how to decrypt text without being given the underlying encryption key or algorithm logic.
+This project serves as a proof of concept for **Neural Cryptanalysis**. GRU-based recurrent neural networks are used to "learn" decryption of text without prior knowledge of the underlying encryption key or algorithm logic.
 
 ### Key Results
 *   **Caesar Cipher**: Easily broken in <5 epochs. 100% accuracy on character mapping.
@@ -56,12 +56,4 @@ python GRU_vigenere_v2.py
 python aes_vs_vigenere.py
 ```
 
-## Why This Matters
-
-While these models aren't meant to replace real cryptographic tools, they highlight:
-1.  **Pattern Discovery**: The power of sequence modeling in identifying hidden linear relationships.
-2.  **Cryptographic Limits**: Why modern cryptography (like AES) is mathematically superior to classical "pattern-based" ciphers.
-3.  **Modern PyTorch**: A clean, scalable implementation using custom `Dataset` and `DataLoader` classes (no deprecated `torchtext` dependencies).
-
 ---
-*Created for educational purposes.*
